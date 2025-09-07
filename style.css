@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: underline;
+  color: inherit;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 5px;
+  padding: 5px;
+} 
+
+/* Style nav */
+nav {
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 20px;
+  background-color: #eee;
+  padding: 10px;
+}
+
+/* Style only nav images */
+nav img {
+  width: 10%;
+  vertical-align: text-top;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Grid section */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around; /* tweak as needed */
+  align-items: start;
+  row-gap: 20px;
+  margin-bottom: 30px;
+}
+
+.grid img {
+  width: 100%; /* only affects grid images */
+  border-radius: 8px;
+}
+
+/* Flex section */
+.flex {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  gap: 15px; /* optional, keeps spacing consistent */
+}
+
+.card {
+  flex: 1 1 30%;
+  background: #ddd;
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+}
